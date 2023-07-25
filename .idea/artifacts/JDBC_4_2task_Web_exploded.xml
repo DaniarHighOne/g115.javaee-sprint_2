@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JDBC-4-2task:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JDBC_4_2task_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JDBC-4-2task/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JDBC-4-2task" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="postgresql-42.6.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
